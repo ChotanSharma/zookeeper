@@ -11,7 +11,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-
 function createNewAnimal(body, animalsArray) {
   console.log(body);
   // our function's main code will go here!
